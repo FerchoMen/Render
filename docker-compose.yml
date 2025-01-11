@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image:
-      enriquemacias21/python-flask
+      fercho2001/app-python-flask
     ports:
       - "5000:5000"
     environment:
